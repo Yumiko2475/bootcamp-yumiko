@@ -1,0 +1,29 @@
+table,th, td{
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.box{
+    border: 2px solid black;
+}
+
+
+.row{
+    background-color: salmon;
+    color: white;
+}
+.oddnumber{
+    background-color: oldlace;
+}
+
+.email{
+    color: blue;
+}
+
+.photo{
+    background-image: url(../images/doraemon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

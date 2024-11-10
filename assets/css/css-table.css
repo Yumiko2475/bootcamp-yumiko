@@ -1,0 +1,20 @@
+table,th, td{
+    width: 500px;
+    border: 2px solid black;
+    empty-cells: show;
+    border-collapse: separate;
+}
+
+.row{
+    background-color: lightsalmon;
+    text-transform: uppercase;
+    color: white
+}
+
+.row2{
+    text-align: center;
+}
+
+.empty{
+    background-color: red;
+}

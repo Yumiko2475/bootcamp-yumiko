@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    width:100%;
+    height:500px;
+    padding:10px;
+    background-color: lightcoral;
+}
+
+.box-1{
+    width:200px;
+    height:200px;
+    padding:10px;
+    background-color: blueviolet;
+    margin:1em;
+    text-align: center;
+    float: left;
+    box-shadow: 10px 20px red;
+
+}
+
+.box-2{
+    width:200px;
+    height:200px;
+    padding:10px;
+    background-color: lightsalmon;
+    margin:1em;
+    text-align: center;
+    float: right;
+
+}

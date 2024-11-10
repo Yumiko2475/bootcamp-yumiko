@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Froms</title>
+</head>
+<body>
+    <h1>Example of HTML Forms</h1>
+    <form action="#" method="#">
+        <fieldset>
+            <legend>Basic Form Registration</legend>
+                <div>
+                    <label for="Fname">First Name:</label>
+                    <input type="text" name="firstname" id="fname" placeholder="input your first name here" required>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lastname" id="lname" placeholder="input your last name here" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="yahoo@com." required>
+                </div>
+                <br>
+                
+                <div>
+                    <label for="user">Username:</label>
+                    <input type="text" name="username" id="user" placeholder="20124@email" required>
+                    <label for="pass">Password:</label>
+                    <input type="password" name="password" id="pass" placeholder="kindly input right password:" required>
+                </div>
+                <br>
+                <button>Submit</button>
+        </fieldset>
+        <h1>Example Other Forms Control</h1>
+        <h2>Text Area</h2>
+        <p>please leave a comments!</p>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+        <h2>Radio Button</h2>
+        <p>please select favorite japanese foods?</p>
+        <input type="radio" name="food" id="ramen"><label for="ramen">Ramen</label>
+        <input type="radio" name="food" id="sushi"><label for="sushi">Sushi</label>
+        <input type="radio" name="food" id="gyudon"><label for="gyudon">Gyudon</label>
+        <input type="radio" name="food" id="beef"><label for="beef">Beef</label>
+
+        <h2>Check Button</h2>
+        <p>please select your country!</p>
+        <input type="checkbox" name="country" id="Japan"><label for="Japan">Japan</label>
+        <input type="checkbox" name="country" id="America"><label for="America">America</label>
+        <input type="checkbox" name="country" id="Korea"><label for="Korea">Korea</label>
+        <input type="checkbox" name="country" id="Russia"><label for="Russia">Russia</label>
+        
+        <h2>Droplist</h2>
+        <label for="cars">Select Car Model</label>
+        <select name="cars" id="cars">
+            <option value="honda">Honda</option>
+            <option value="toyota">Toyota</option>
+            <option value="mazda">Mazda</option>
+            <option value="suzuki">Suzuki</option>
+            <option value="nissan">Nissan</option>
+            <option value="hyundai">Hyundai</option>
+            <option value="tesla">Tesla</option>
+        </select>
+
+        <h2>Multiple Select </h2>
+        <label for="instruments">Please Select Your Instrument Played?</label>
+        <select name="instrument" id="instruments" multiple size="6">
+            <option value="flute">Flute</option>
+            <option value="Guiter">Guiter</option>
+            <option value="Piano">Piano</option>
+            <option value="Violin">Violin</option>
+            <option value="bass">Bass</option>
+            <option value="saxophone">Saxophone</option>
+        </select>
+
+        <h2>File Input</h2>
+        <p>Please, Upload file here:</p>
+        <input type="file" name="file" id="file">
+
+        <h2>Date</h2>
+        <p>Select your birthdate</p>
+        <input type="date" name="date" id="date">
+
+        <h2>Button</h2>
+        <a href="https://www.google.com" target="_blank"><input type="button" value="Google"></a>
+        <a href="https://www.yahoo.com" target="_blank"><input type="button" value="yahoo"></a>
+        <a href="https://www.kredo.jp" target="_blank"><input type="button" value="Kredo Learning"></a>
+
+    </form>
+
+    
+</body>
+</html>

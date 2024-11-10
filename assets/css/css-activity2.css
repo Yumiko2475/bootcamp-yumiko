@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.profile{
+    width:580px;
+    height:500px;
+    padding:10px;
+    margin:20px;
+    border: 1px solid gray;
+}
+
+.dora{
+    width:220px;
+    height:350px;
+    margin:20px;
+    padding:10px;
+    float: left;
+    box-shadow: 5px 5px 5px 5px rgb(227, 226, 226);
+}
+
+.dorami{
+    width:220px;
+    height:350px;
+    margin:20px;
+    padding:10px;
+    float: left;
+    box-shadow: 5px 5px 5px 5px rgb(227, 226, 226);
+    border-radius: 10PX;
+}
+
+.name{
+    width:220px;
+    font-size: 20px;
+    margin-top:20px;
+}
+
+.class{
+    width:220px;
+    font-size: 14px;
+    margin-top:20px;
+
+}

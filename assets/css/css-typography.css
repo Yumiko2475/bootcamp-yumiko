@@ -1,0 +1,191 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.standard{
+    color:blue;
+}
+
+.hexcode{
+    color:#D88FD8;
+}
+
+.rgb{
+    color:rgb(0,0,255);
+}
+
+.rgba{
+    color:rgba(255,255,255, .5);
+}
+
+.txt1{
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.txt2{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.txt3{
+    font-size: 16px;
+    font-family: serif;
+}
+
+.overline{
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: overline;
+}
+
+.underline{
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.line-through{
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: line-through;
+}
+
+.uppercase{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.lowercase{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+.capitalize{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.left{
+    font-size: 16px;
+    text-align: left;
+}
+
+.Center{
+    font-size: 16px;
+    text-align: center;
+}
+
+.Right{
+    font-size: 16px;
+    text-align: Right;
+}
+
+.shadow{
+    font-size: 20px;
+    text-shadow: 3px 3px 5px red;
+}
+
+.txt4{
+    font-weight: 900;
+    font-size: 16px;
+    text-indent: 50px;
+}
+
+.txt5{
+    font-weight: 900;
+    font-size: 16px;
+    text-indent: 10%;
+}
+
+.txt6{
+    font-weight: 900;
+    font-size: 16px;
+    text-indent: 5em;
+}
+
+.word10{
+    font-size: 16px;
+    word-spacing: 10px;
+}
+
+.word20{
+    font-size: 16px;
+    word-spacing: 20px;
+}
+
+.word30{
+    font-size: 16px;
+    word-spacing: 30px;
+}
+
+.letter10{
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+
+.letter20{
+    font-size: 16px;
+    letter-spacing: 20px;
+}
+
+.letter30{
+    font-size: 16px;
+    letter-spacing: 30px;
+}
+
+ol li.decimal-leading-zero{
+    font-size: 20px;
+    list-style-type: decimal-leading-zero;
+}
+
+ol li.lower-alpha{
+    font-size: 20px;
+    list-style-type: lower-alpha;
+}
+
+ol li.upper-alpha{
+    font-size: 20px;
+    list-style-type: upper-alpha;
+}
+
+ol li.lower-roman{
+    font-size: 20px;
+    list-style-type: lower-roman;
+}
+
+ol li.upper-roman{
+    font-size: 20px;
+    list-style-type: upper-roman;
+}
+
+ul li.none{
+    font-size: 20px;
+    list-style: none;
+}
+ul li.disc{
+    font-size: 20px;
+    list-style: disc;
+}
+
+ul li.circle{
+    font-size: 20px;
+    list-style: circle;
+}
+
+ul li.square{
+    font-size: 20px;
+    list-style: square;
+}
+
+.list{
+    font-size: 20px;
+    list-style: square outside;
+}
+
+.list1{
+    font-size: 20px;
+    list-style: disc inside;
+}

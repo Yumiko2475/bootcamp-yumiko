@@ -1,0 +1,42 @@
+*{
+    font-family: monospace;
+}
+
+
+
+h2{
+    color:red;
+}
+em{
+    color:green;
+}
+strong{
+    color:violet;
+}
+
+span{
+    color:red;
+}
+
+.app{
+    color:green;
+}
+
+.ban{
+    color:yellow;
+}
+
+.ora{
+    color:orangered;
+}
+
+#txt1{
+    color:blue;
+}
+#txt2{
+    color:darkmagenta;
+}
+
+ol li{
+    color:darkgreen;
+}
